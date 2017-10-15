@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC2A1C7B1F8FF10D00BA9A0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2A1C7A1F8FF10D00BA9A0B /* AppDelegate.m */; };
+		CC2A1C811F8FF10D00BA9A0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC2A1C7F1F8FF10D00BA9A0B /* Main.storyboard */; };
+		CC2A1C831F8FF10D00BA9A0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC2A1C821F8FF10D00BA9A0B /* Assets.xcassets */; };
+		CC2A1C861F8FF10D00BA9A0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC2A1C841F8FF10D00BA9A0B /* LaunchScreen.storyboard */; };
+		CC2A1C891F8FF10D00BA9A0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2A1C881F8FF10D00BA9A0B /* main.m */; };
+		CC2A1C931F8FF10D00BA9A0B /* CastExTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2A1C921F8FF10D00BA9A0B /* CastExTests.m */; };
+		CC2A1C9E1F8FF10D00BA9A0B /* CastExUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2A1C9D1F8FF10D00BA9A0B /* CastExUITests.m */; };
+		CC2A1CAF1F8FF4FC00BA9A0B /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2A1CAE1F8FF4FC00BA9A0B /* IntroViewController.m */; };
+		CCBDDEC41F90160E00896D3E /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCBDDEB81F90160C00896D3E /* Roboto-LightItalic.ttf */; };
+		CCBDDEC51F90160E00896D3E /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCBDDEB91F90160D00896D3E /* Roboto-BlackItalic.ttf */; };
+		CCBDDEC61F90160E00896D3E /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCBDDEBA1F90160D00896D3E /* Roboto-Black.ttf */; };
+		CCBDDEC71F90160E00896D3E /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCBDDEBB1F90160D00896D3E /* Roboto-Thin.ttf */; };
+		CCBDDEC81F90160E00896D3E /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCBDDEBC1F90160D00896D3E /* Roboto-ThinItalic.ttf */; };
+		CCBDDEC91F90160E00896D3E /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCBDDEBD1F90160D00896D3E /* Roboto-Italic.ttf */; };
+		CCBDDECA1F90160E00896D3E /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCBDDEBE1F90160D00896D3E /* Roboto-Light.ttf */; };
+		CCBDDECB1F90160E00896D3E /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCBDDEBF1F90160E00896D3E /* Roboto-BoldItalic.ttf */; };
+		CCBDDECC1F90160E00896D3E /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCBDDEC01F90160E00896D3E /* Roboto-Medium.ttf */; };
+		CCBDDECD1F90160E00896D3E /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCBDDEC11F90160E00896D3E /* Roboto-MediumItalic.ttf */; };
+		CCBDDECE1F90160E00896D3E /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCBDDEC21F90160E00896D3E /* Roboto-Bold.ttf */; };
+		CCBDDECF1F90160E00896D3E /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCBDDEC31F90160E00896D3E /* Roboto-Regular.ttf */; };
+		CCBDDED21F90163600896D3E /* waves.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CCBDDED11F90163600896D3E /* waves.mp4 */; };
+		CCBDDED81F9020EF00896D3E /* playButton.png in Resources */ = {isa = PBXBuildFile; fileRef = CCBDDED71F9020EE00896D3E /* playButton.png */; };
+		CCBDDEDC1F90229B00896D3E /* recordButton.png in Resources */ = {isa = PBXBuildFile; fileRef = CCBDDEDB1F90229B00896D3E /* recordButton.png */; };
+		CCBDDEE71F9030D400896D3E /* StreamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBDDEE51F9030D400896D3E /* StreamViewController.m */; };
+		CCBDDEE81F9030D400896D3E /* AAPLEAGLLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBDDEE61F9030D400896D3E /* AAPLEAGLLayer.m */; };
+		FBE4DFE660F2ADF471402616 /* Pods_CastEx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F16F47CF5EAC5ADAF54285D /* Pods_CastEx.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC2A1C8F1F8FF10D00BA9A0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC2A1C6E1F8FF10D00BA9A0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC2A1C751F8FF10D00BA9A0B;
+			remoteInfo = CastEx;
+		};
+		CC2A1C9A1F8FF10D00BA9A0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC2A1C6E1F8FF10D00BA9A0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC2A1C751F8FF10D00BA9A0B;
+			remoteInfo = CastEx;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F16F47CF5EAC5ADAF54285D /* Pods_CastEx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CastEx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B642C779C994D4F1B29580 /* Pods-CastEx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CastEx.release.xcconfig"; path = "Pods/Target Support Files/Pods-CastEx/Pods-CastEx.release.xcconfig"; sourceTree = "<group>"; };
+		CC2A1C761F8FF10D00BA9A0B /* CastEx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CastEx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC2A1C791F8FF10D00BA9A0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC2A1C7A1F8FF10D00BA9A0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC2A1C801F8FF10D00BA9A0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC2A1C821F8FF10D00BA9A0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC2A1C851F8FF10D00BA9A0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC2A1C871F8FF10D00BA9A0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC2A1C881F8FF10D00BA9A0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC2A1C8E1F8FF10D00BA9A0B /* CastExTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CastExTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC2A1C921F8FF10D00BA9A0B /* CastExTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CastExTests.m; sourceTree = "<group>"; };
+		CC2A1C941F8FF10D00BA9A0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC2A1C991F8FF10D00BA9A0B /* CastExUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CastExUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC2A1C9D1F8FF10D00BA9A0B /* CastExUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CastExUITests.m; sourceTree = "<group>"; };
+		CC2A1C9F1F8FF10D00BA9A0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC2A1CAD1F8FF4FC00BA9A0B /* IntroViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroViewController.h; sourceTree = "<group>"; };
+		CC2A1CAE1F8FF4FC00BA9A0B /* IntroViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroViewController.m; sourceTree = "<group>"; };
+		CCBDDEB81F90160C00896D3E /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		CCBDDEB91F90160D00896D3E /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		CCBDDEBA1F90160D00896D3E /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		CCBDDEBB1F90160D00896D3E /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		CCBDDEBC1F90160D00896D3E /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		CCBDDEBD1F90160D00896D3E /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		CCBDDEBE1F90160D00896D3E /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		CCBDDEBF1F90160E00896D3E /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		CCBDDEC01F90160E00896D3E /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		CCBDDEC11F90160E00896D3E /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		CCBDDEC21F90160E00896D3E /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		CCBDDEC31F90160E00896D3E /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		CCBDDED11F90163600896D3E /* waves.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = waves.mp4; sourceTree = "<group>"; };
+		CCBDDED71F9020EE00896D3E /* playButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = playButton.png; path = ../../../../../Downloads/playButton.png; sourceTree = "<group>"; };
+		CCBDDEDB1F90229B00896D3E /* recordButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recordButton.png; sourceTree = "<group>"; };
+		CCBDDEE31F9030D400896D3E /* AAPLEAGLLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLEAGLLayer.h; sourceTree = "<group>"; };
+		CCBDDEE41F9030D400896D3E /* StreamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamViewController.h; sourceTree = "<group>"; };
+		CCBDDEE51F9030D400896D3E /* StreamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreamViewController.m; sourceTree = "<group>"; };
+		CCBDDEE61F9030D400896D3E /* AAPLEAGLLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLEAGLLayer.m; sourceTree = "<group>"; };
+		D2D08C3497F424B3A1101AC5 /* Pods-CastEx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CastEx.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CastEx/Pods-CastEx.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC2A1C731F8FF10D00BA9A0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBE4DFE660F2ADF471402616 /* Pods_CastEx.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2A1C8B1F8FF10D00BA9A0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2A1C961F8FF10D00BA9A0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B5F0D589E54D166ED4AB5A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2D08C3497F424B3A1101AC5 /* Pods-CastEx.debug.xcconfig */,
+				81B642C779C994D4F1B29580 /* Pods-CastEx.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		87517B894FEF2DEF709E4E6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F16F47CF5EAC5ADAF54285D /* Pods_CastEx.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC2A1C6D1F8FF10D00BA9A0B = {
+			isa = PBXGroup;
+			children = (
+				CCBDDEDD1F90294400896D3E /* ViewControllers */,
+				CCBDDED31F901F4700896D3E /* UI Resources */,
+				CCBDDED01F90162200896D3E /* Media */,
+				CC2A1C781F8FF10D00BA9A0B /* CastEx */,
+				CC2A1C911F8FF10D00BA9A0B /* CastExTests */,
+				CC2A1C9C1F8FF10D00BA9A0B /* CastExUITests */,
+				CC2A1C771F8FF10D00BA9A0B /* Products */,
+				5B5F0D589E54D166ED4AB5A6 /* Pods */,
+				87517B894FEF2DEF709E4E6A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CC2A1C771F8FF10D00BA9A0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC2A1C761F8FF10D00BA9A0B /* CastEx.app */,
+				CC2A1C8E1F8FF10D00BA9A0B /* CastExTests.xctest */,
+				CC2A1C991F8FF10D00BA9A0B /* CastExUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC2A1C781F8FF10D00BA9A0B /* CastEx */ = {
+			isa = PBXGroup;
+			children = (
+				CC2A1C791F8FF10D00BA9A0B /* AppDelegate.h */,
+				CC2A1C7A1F8FF10D00BA9A0B /* AppDelegate.m */,
+				CC2A1C7F1F8FF10D00BA9A0B /* Main.storyboard */,
+				CC2A1C821F8FF10D00BA9A0B /* Assets.xcassets */,
+				CC2A1C841F8FF10D00BA9A0B /* LaunchScreen.storyboard */,
+				CC2A1C871F8FF10D00BA9A0B /* Info.plist */,
+				CC2A1C881F8FF10D00BA9A0B /* main.m */,
+			);
+			path = CastEx;
+			sourceTree = "<group>";
+		};
+		CC2A1C911F8FF10D00BA9A0B /* CastExTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC2A1C921F8FF10D00BA9A0B /* CastExTests.m */,
+				CC2A1C941F8FF10D00BA9A0B /* Info.plist */,
+			);
+			path = CastExTests;
+			sourceTree = "<group>";
+		};
+		CC2A1C9C1F8FF10D00BA9A0B /* CastExUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC2A1C9D1F8FF10D00BA9A0B /* CastExUITests.m */,
+				CC2A1C9F1F8FF10D00BA9A0B /* Info.plist */,
+			);
+			path = CastExUITests;
+			sourceTree = "<group>";
+		};
+		CCBDDEB61F9015E100896D3E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CCBDDEB71F9015F700896D3E /* Roboto */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CCBDDEB71F9015F700896D3E /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				CCBDDEBA1F90160D00896D3E /* Roboto-Black.ttf */,
+				CCBDDEB91F90160D00896D3E /* Roboto-BlackItalic.ttf */,
+				CCBDDEC21F90160E00896D3E /* Roboto-Bold.ttf */,
+				CCBDDEBF1F90160E00896D3E /* Roboto-BoldItalic.ttf */,
+				CCBDDEBD1F90160D00896D3E /* Roboto-Italic.ttf */,
+				CCBDDEBE1F90160D00896D3E /* Roboto-Light.ttf */,
+				CCBDDEB81F90160C00896D3E /* Roboto-LightItalic.ttf */,
+				CCBDDEC01F90160E00896D3E /* Roboto-Medium.ttf */,
+				CCBDDEC11F90160E00896D3E /* Roboto-MediumItalic.ttf */,
+				CCBDDEC31F90160E00896D3E /* Roboto-Regular.ttf */,
+				CCBDDEBB1F90160D00896D3E /* Roboto-Thin.ttf */,
+				CCBDDEBC1F90160D00896D3E /* Roboto-ThinItalic.ttf */,
+			);
+			path = Roboto;
+			sourceTree = "<group>";
+		};
+		CCBDDED01F90162200896D3E /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				CCBDDED11F90163600896D3E /* waves.mp4 */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		CCBDDED31F901F4700896D3E /* UI Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CCBDDEB61F9015E100896D3E /* Fonts */,
+				CCBDDED41F901F5100896D3E /* IntroViewController */,
+			);
+			path = "UI Resources";
+			sourceTree = "<group>";
+		};
+		CCBDDED41F901F5100896D3E /* IntroViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CCBDDEDB1F90229B00896D3E /* recordButton.png */,
+				CCBDDED71F9020EE00896D3E /* playButton.png */,
+			);
+			path = IntroViewController;
+			sourceTree = "<group>";
+		};
+		CCBDDEDD1F90294400896D3E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CCBDDEDF1F90306D00896D3E /* StreamViewController */,
+				CCBDDEDE1F90295000896D3E /* IntroViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CCBDDEDE1F90295000896D3E /* IntroViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CC2A1CAD1F8FF4FC00BA9A0B /* IntroViewController.h */,
+				CC2A1CAE1F8FF4FC00BA9A0B /* IntroViewController.m */,
+			);
+			path = IntroViewController;
+			sourceTree = "<group>";
+		};
+		CCBDDEDF1F90306D00896D3E /* StreamViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CCBDDEE31F9030D400896D3E /* AAPLEAGLLayer.h */,
+				CCBDDEE61F9030D400896D3E /* AAPLEAGLLayer.m */,
+				CCBDDEE41F9030D400896D3E /* StreamViewController.h */,
+				CCBDDEE51F9030D400896D3E /* StreamViewController.m */,
+			);
+			path = StreamViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC2A1C751F8FF10D00BA9A0B /* CastEx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC2A1CA21F8FF10D00BA9A0B /* Build configuration list for PBXNativeTarget "CastEx" */;
+			buildPhases = (
+				581070224C5A8A296A1E1656 /* [CP] Check Pods Manifest.lock */,
+				CC2A1C721F8FF10D00BA9A0B /* Sources */,
+				CC2A1C731F8FF10D00BA9A0B /* Frameworks */,
+				CC2A1C741F8FF10D00BA9A0B /* Resources */,
+				0F1632A0369F3970D947AF10 /* [CP] Embed Pods Frameworks */,
+				8CD9D5F9E37E9CE0838F75E7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CastEx;
+			productName = CastEx;
+			productReference = CC2A1C761F8FF10D00BA9A0B /* CastEx.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC2A1C8D1F8FF10D00BA9A0B /* CastExTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC2A1CA51F8FF10D00BA9A0B /* Build configuration list for PBXNativeTarget "CastExTests" */;
+			buildPhases = (
+				CC2A1C8A1F8FF10D00BA9A0B /* Sources */,
+				CC2A1C8B1F8FF10D00BA9A0B /* Frameworks */,
+				CC2A1C8C1F8FF10D00BA9A0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC2A1C901F8FF10D00BA9A0B /* PBXTargetDependency */,
+			);
+			name = CastExTests;
+			productName = CastExTests;
+			productReference = CC2A1C8E1F8FF10D00BA9A0B /* CastExTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC2A1C981F8FF10D00BA9A0B /* CastExUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC2A1CA81F8FF10D00BA9A0B /* Build configuration list for PBXNativeTarget "CastExUITests" */;
+			buildPhases = (
+				CC2A1C951F8FF10D00BA9A0B /* Sources */,
+				CC2A1C961F8FF10D00BA9A0B /* Frameworks */,
+				CC2A1C971F8FF10D00BA9A0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC2A1C9B1F8FF10D00BA9A0B /* PBXTargetDependency */,
+			);
+			name = CastExUITests;
+			productName = CastExUITests;
+			productReference = CC2A1C991F8FF10D00BA9A0B /* CastExUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC2A1C6E1F8FF10D00BA9A0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Anirban Bhattacharya (Student)";
+				TargetAttributes = {
+					CC2A1C751F8FF10D00BA9A0B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					CC2A1C8D1F8FF10D00BA9A0B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC2A1C751F8FF10D00BA9A0B;
+					};
+					CC2A1C981F8FF10D00BA9A0B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC2A1C751F8FF10D00BA9A0B;
+					};
+				};
+			};
+			buildConfigurationList = CC2A1C711F8FF10D00BA9A0B /* Build configuration list for PBXProject "CastEx" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC2A1C6D1F8FF10D00BA9A0B;
+			productRefGroup = CC2A1C771F8FF10D00BA9A0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC2A1C751F8FF10D00BA9A0B /* CastEx */,
+				CC2A1C8D1F8FF10D00BA9A0B /* CastExTests */,
+				CC2A1C981F8FF10D00BA9A0B /* CastExUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC2A1C741F8FF10D00BA9A0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCBDDECC1F90160E00896D3E /* Roboto-Medium.ttf in Resources */,
+				CCBDDEC71F90160E00896D3E /* Roboto-Thin.ttf in Resources */,
+				CCBDDECF1F90160E00896D3E /* Roboto-Regular.ttf in Resources */,
+				CCBDDECE1F90160E00896D3E /* Roboto-Bold.ttf in Resources */,
+				CC2A1C861F8FF10D00BA9A0B /* LaunchScreen.storyboard in Resources */,
+				CCBDDEC51F90160E00896D3E /* Roboto-BlackItalic.ttf in Resources */,
+				CCBDDECD1F90160E00896D3E /* Roboto-MediumItalic.ttf in Resources */,
+				CCBDDED81F9020EF00896D3E /* playButton.png in Resources */,
+				CCBDDECA1F90160E00896D3E /* Roboto-Light.ttf in Resources */,
+				CCBDDEC41F90160E00896D3E /* Roboto-LightItalic.ttf in Resources */,
+				CCBDDECB1F90160E00896D3E /* Roboto-BoldItalic.ttf in Resources */,
+				CCBDDEC61F90160E00896D3E /* Roboto-Black.ttf in Resources */,
+				CCBDDEC81F90160E00896D3E /* Roboto-ThinItalic.ttf in Resources */,
+				CCBDDEC91F90160E00896D3E /* Roboto-Italic.ttf in Resources */,
+				CCBDDEDC1F90229B00896D3E /* recordButton.png in Resources */,
+				CC2A1C831F8FF10D00BA9A0B /* Assets.xcassets in Resources */,
+				CCBDDED21F90163600896D3E /* waves.mp4 in Resources */,
+				CC2A1C811F8FF10D00BA9A0B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2A1C8C1F8FF10D00BA9A0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2A1C971F8FF10D00BA9A0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F1632A0369F3970D947AF10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CastEx/Pods-CastEx-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CastEx/Pods-CastEx-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		581070224C5A8A296A1E1656 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CastEx-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CD9D5F9E37E9CE0838F75E7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CastEx/Pods-CastEx-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC2A1C721F8FF10D00BA9A0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC2A1C891F8FF10D00BA9A0B /* main.m in Sources */,
+				CC2A1C7B1F8FF10D00BA9A0B /* AppDelegate.m in Sources */,
+				CCBDDEE71F9030D400896D3E /* StreamViewController.m in Sources */,
+				CC2A1CAF1F8FF4FC00BA9A0B /* IntroViewController.m in Sources */,
+				CCBDDEE81F9030D400896D3E /* AAPLEAGLLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2A1C8A1F8FF10D00BA9A0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC2A1C931F8FF10D00BA9A0B /* CastExTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2A1C951F8FF10D00BA9A0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC2A1C9E1F8FF10D00BA9A0B /* CastExUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC2A1C901F8FF10D00BA9A0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC2A1C751F8FF10D00BA9A0B /* CastEx */;
+			targetProxy = CC2A1C8F1F8FF10D00BA9A0B /* PBXContainerItemProxy */;
+		};
+		CC2A1C9B1F8FF10D00BA9A0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC2A1C751F8FF10D00BA9A0B /* CastEx */;
+			targetProxy = CC2A1C9A1F8FF10D00BA9A0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC2A1C7F1F8FF10D00BA9A0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC2A1C801F8FF10D00BA9A0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC2A1C841F8FF10D00BA9A0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC2A1C851F8FF10D00BA9A0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC2A1CA01F8FF10D00BA9A0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC2A1CA11F8FF10D00BA9A0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC2A1CA31F8FF10D00BA9A0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2D08C3497F424B3A1101AC5 /* Pods-CastEx.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XE6XA4DH2N;
+				INFOPLIST_FILE = CastEx/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ASU.CastEx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC2A1CA41F8FF10D00BA9A0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81B642C779C994D4F1B29580 /* Pods-CastEx.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XE6XA4DH2N;
+				INFOPLIST_FILE = CastEx/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ASU.CastEx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CC2A1CA61F8FF10D00BA9A0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XE6XA4DH2N;
+				INFOPLIST_FILE = CastExTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ASU.CastExTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CastEx.app/CastEx";
+			};
+			name = Debug;
+		};
+		CC2A1CA71F8FF10D00BA9A0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XE6XA4DH2N;
+				INFOPLIST_FILE = CastExTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ASU.CastExTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CastEx.app/CastEx";
+			};
+			name = Release;
+		};
+		CC2A1CA91F8FF10D00BA9A0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XE6XA4DH2N;
+				INFOPLIST_FILE = CastExUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ASU.CastExUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CastEx;
+			};
+			name = Debug;
+		};
+		CC2A1CAA1F8FF10D00BA9A0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XE6XA4DH2N;
+				INFOPLIST_FILE = CastExUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ASU.CastExUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CastEx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC2A1C711F8FF10D00BA9A0B /* Build configuration list for PBXProject "CastEx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC2A1CA01F8FF10D00BA9A0B /* Debug */,
+				CC2A1CA11F8FF10D00BA9A0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC2A1CA21F8FF10D00BA9A0B /* Build configuration list for PBXNativeTarget "CastEx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC2A1CA31F8FF10D00BA9A0B /* Debug */,
+				CC2A1CA41F8FF10D00BA9A0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC2A1CA51F8FF10D00BA9A0B /* Build configuration list for PBXNativeTarget "CastExTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC2A1CA61F8FF10D00BA9A0B /* Debug */,
+				CC2A1CA71F8FF10D00BA9A0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC2A1CA81F8FF10D00BA9A0B /* Build configuration list for PBXNativeTarget "CastExUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC2A1CA91F8FF10D00BA9A0B /* Debug */,
+				CC2A1CAA1F8FF10D00BA9A0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC2A1C6E1F8FF10D00BA9A0B /* Project object */;
+}
