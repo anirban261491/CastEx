@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import "GCDAsyncUdpSocket.h"
+#import "GCDAsyncSocket.h"
 @interface StreamViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIImageView *backButtonImageView;
+@property (weak, nonatomic) IBOutlet UIButton *backButton;
 
 
 @end

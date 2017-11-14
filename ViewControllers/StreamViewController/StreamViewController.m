@@ -32,6 +32,7 @@ static void didDecompress( void *decompressionOutputRefCon, void *sourceFrameRef
 
 @implementation StreamViewController
 GCDAsyncUdpSocket *udpSocket;
+GCDAsyncSocket *tcpSocket;
 dispatch_queue_t receiveDataQueue;
 dispatch_queue_t writeToFileQueue;
 dispatch_queue_t sendToDecodeQueue;
@@ -198,12 +199,49 @@ dispatch_queue_t sendToDecodeQueue;
     
     _glLayer = [[AAPLEAGLLayer alloc] initWithFrame:self.view.bounds];
     [self.view.layer addSublayer:_glLayer];
+    
+    [self.view bringSubviewToFront:_backButtonImageView];
+    [self.view bringSubviewToFront:_backButton];
+    
     NALBuffer=[NSMutableArray new];
     receiveDataQueue = dispatch_queue_create("com.receiveDataQueue.queue", DISPATCH_QUEUE_SERIAL);
     writeToFileQueue = dispatch_queue_create("com.writeToFile.queue", DISPATCH_QUEUE_SERIAL);
     sendToDecodeQueue = dispatch_queue_create("com.sendToDecode.queue", DISPATCH_QUEUE_SERIAL);
     udpSocket = [[GCDAsyncUdpSocket alloc] initWithDelegate:self delegateQueue:receiveDataQueue];
+    
+    //tcpSocket = [[GCDAsyncSocket alloc] initWithDelegate:self delegateQueue:receiveDataQueue];
+    
+    //[self connectToServer];
      [self openSocket];
+}
+
+-(void)connectToServer {
+    NSError *err = nil;
+    if (![tcpSocket connectToHost:@"172.20.10.2" onPort:1900 error:&err]) // Asynchronous!
+    {
+        // If there was an error, it's likely something like "already connected" or "no delegate set"
+        NSLog(@"I goofed: %@", err);
+        return;
+    }
+}
+
+- (void)socket:(GCDAsyncSocket *)sender didConnectToHost:(NSString *)host port:(UInt16)port
+{
+    NSLog(@"Cool, I'm connected! That was easy.");
+    
+    [tcpSocket readDataWithTimeout:-1 tag:0];
+}
+
+- (void)socket:(GCDAsyncSocket *)sender didReadData:(NSData *)data withTag:(long)tag
+{
+    //NSLog(@"Received Data: %@",data);
+    dispatch_async(writeToFileQueue, ^{
+        [self addToBuffer:data];
+    });
+    dispatch_async(writeToFileQueue, ^{
+        [self readFromBufferAndSend];
+    });
+    [tcpSocket readDataWithTimeout:-1 tag:0];
 }
 
 -(void)openSocket
@@ -214,6 +252,10 @@ dispatch_queue_t sendToDecodeQueue;
     {
         NSLog(@"Bind error");
     }
+//    if (![udpSocket joinMulticastGroup:@"224.0.113.0" error:&error])
+//    {
+//        NSLog(@"Group joining error");
+//    }
     if (![udpSocket beginReceiving:&error])
     {
         [udpSocket close];
@@ -248,6 +290,10 @@ withFilterContext:(id)filterContext
     dispatch_async(sendToDecodeQueue, ^{
         [self parseNALU:NALUnit];
     });
+}
+- (IBAction)backButtonPressed:(id)sender {
+    [self clearH264Deocder];
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

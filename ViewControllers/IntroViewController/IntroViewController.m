@@ -8,6 +8,7 @@
 
 #import "IntroViewController.h"
 #import "StreamViewController.h"
+#import "ContentTypeViewController.h"
 @interface IntroViewController ()
 
 @end
@@ -45,6 +46,10 @@
 
 - (IBAction)watchButtonPressed:(id)sender {
     StreamViewController *v = [self.storyboard instantiateViewControllerWithIdentifier:@"StreamViewController"];
+    [self.navigationController pushViewController:v animated:YES];
+}
+- (IBAction)streamContentButtonPressed:(id)sender {
+    ContentTypeViewController *v = [self.storyboard instantiateViewControllerWithIdentifier:@"ContentTypeViewController"];
     [self.navigationController pushViewController:v animated:YES];
 }
 

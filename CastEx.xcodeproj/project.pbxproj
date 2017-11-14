@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A442C4D1F9416BB0062B36D /* ContentTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A442C4C1F9416BB0062B36D /* ContentTypeViewController.m */; };
+		5A442C4F1F9419180062B36D /* playButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A442C4E1F94187B0062B36D /* playButton.png */; };
+		5A442C561F941CD90062B36D /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A442C551F941CD90062B36D /* CameraViewController.m */; };
+		5A442C5A1F941F240062B36D /* H264HwEncoderImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A442C591F941E190062B36D /* H264HwEncoderImpl.m */; };
+		5A442C611F942FB70062B36D /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A442C601F942FB70062B36D /* VideoViewController.m */; };
+		5A442C661F94480F0062B36D /* OverLayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A442C651F94480F0062B36D /* OverLayViewController.m */; };
+		5A442C6B1F9469D10062B36D /* FileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A442C6A1F9469D10062B36D /* FileViewController.m */; };
+		5A442C6D1F9471330062B36D /* document.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 5A442C6C1F94711C0062B36D /* document.pdf */; };
+		5A442C6F1F9471BC0062B36D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A442C6E1F9471BC0062B36D /* WebKit.framework */; };
+		5A442C721F9474370062B36D /* recordButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A442C701F9474330062B36D /* recordButton.png */; };
+		5A442C731F94743C0062B36D /* stopButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A442C711F9474340062B36D /* stopButton.png */; };
+		5A442C751F94744F0062B36D /* backButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A442C741F94744B0062B36D /* backButton.png */; };
 		CC2A1C7B1F8FF10D00BA9A0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2A1C7A1F8FF10D00BA9A0B /* AppDelegate.m */; };
 		CC2A1C811F8FF10D00BA9A0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC2A1C7F1F8FF10D00BA9A0B /* Main.storyboard */; };
 		CC2A1C831F8FF10D00BA9A0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC2A1C821F8FF10D00BA9A0B /* Assets.xcassets */; };
@@ -28,8 +40,7 @@
 		CCBDDECE1F90160E00896D3E /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCBDDEC21F90160E00896D3E /* Roboto-Bold.ttf */; };
 		CCBDDECF1F90160E00896D3E /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCBDDEC31F90160E00896D3E /* Roboto-Regular.ttf */; };
 		CCBDDED21F90163600896D3E /* waves.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CCBDDED11F90163600896D3E /* waves.mp4 */; };
-		CCBDDED81F9020EF00896D3E /* playButton.png in Resources */ = {isa = PBXBuildFile; fileRef = CCBDDED71F9020EE00896D3E /* playButton.png */; };
-		CCBDDEDC1F90229B00896D3E /* recordButton.png in Resources */ = {isa = PBXBuildFile; fileRef = CCBDDEDB1F90229B00896D3E /* recordButton.png */; };
+		CCBDDEDC1F90229B00896D3E /* recordWhiteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = CCBDDEDB1F90229B00896D3E /* recordWhiteButton.png */; };
 		CCBDDEE71F9030D400896D3E /* StreamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBDDEE51F9030D400896D3E /* StreamViewController.m */; };
 		CCBDDEE81F9030D400896D3E /* AAPLEAGLLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBDDEE61F9030D400896D3E /* AAPLEAGLLayer.m */; };
 		FBE4DFE660F2ADF471402616 /* Pods_CastEx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F16F47CF5EAC5ADAF54285D /* Pods_CastEx.framework */; };
@@ -53,6 +64,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A442C4B1F9416BB0062B36D /* ContentTypeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContentTypeViewController.h; sourceTree = "<group>"; };
+		5A442C4C1F9416BB0062B36D /* ContentTypeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContentTypeViewController.m; sourceTree = "<group>"; };
+		5A442C4E1F94187B0062B36D /* playButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playButton.png; sourceTree = "<group>"; };
+		5A442C541F941CD90062B36D /* CameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		5A442C551F941CD90062B36D /* CameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		5A442C581F941E190062B36D /* H264HwEncoderImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = H264HwEncoderImpl.h; sourceTree = "<group>"; };
+		5A442C591F941E190062B36D /* H264HwEncoderImpl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = H264HwEncoderImpl.m; sourceTree = "<group>"; };
+		5A442C5F1F942FB70062B36D /* VideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		5A442C601F942FB70062B36D /* VideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		5A442C641F94480F0062B36D /* OverLayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OverLayViewController.h; sourceTree = "<group>"; };
+		5A442C651F94480F0062B36D /* OverLayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OverLayViewController.m; sourceTree = "<group>"; };
+		5A442C691F9469D10062B36D /* FileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileViewController.h; sourceTree = "<group>"; };
+		5A442C6A1F9469D10062B36D /* FileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileViewController.m; sourceTree = "<group>"; };
+		5A442C6C1F94711C0062B36D /* document.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = document.pdf; sourceTree = "<group>"; };
+		5A442C6E1F9471BC0062B36D /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		5A442C701F9474330062B36D /* recordButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recordButton.png; sourceTree = "<group>"; };
+		5A442C711F9474340062B36D /* stopButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stopButton.png; sourceTree = "<group>"; };
+		5A442C741F94744B0062B36D /* backButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButton.png; sourceTree = "<group>"; };
 		6F16F47CF5EAC5ADAF54285D /* Pods_CastEx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CastEx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		81B642C779C994D4F1B29580 /* Pods-CastEx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CastEx.release.xcconfig"; path = "Pods/Target Support Files/Pods-CastEx/Pods-CastEx.release.xcconfig"; sourceTree = "<group>"; };
 		CC2A1C761F8FF10D00BA9A0B /* CastEx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CastEx.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,8 +113,7 @@
 		CCBDDEC21F90160E00896D3E /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		CCBDDEC31F90160E00896D3E /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		CCBDDED11F90163600896D3E /* waves.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = waves.mp4; sourceTree = "<group>"; };
-		CCBDDED71F9020EE00896D3E /* playButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = playButton.png; path = ../../../../../Downloads/playButton.png; sourceTree = "<group>"; };
-		CCBDDEDB1F90229B00896D3E /* recordButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recordButton.png; sourceTree = "<group>"; };
+		CCBDDEDB1F90229B00896D3E /* recordWhiteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recordWhiteButton.png; sourceTree = "<group>"; };
 		CCBDDEE31F9030D400896D3E /* AAPLEAGLLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLEAGLLayer.h; sourceTree = "<group>"; };
 		CCBDDEE41F9030D400896D3E /* StreamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamViewController.h; sourceTree = "<group>"; };
 		CCBDDEE51F9030D400896D3E /* StreamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreamViewController.m; sourceTree = "<group>"; };
@@ -98,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A442C6F1F9471BC0062B36D /* WebKit.framework in Frameworks */,
 				FBE4DFE660F2ADF471402616 /* Pods_CastEx.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -119,6 +148,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A442C4A1F9416960062B36D /* ContentTypeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5A442C4B1F9416BB0062B36D /* ContentTypeViewController.h */,
+				5A442C4C1F9416BB0062B36D /* ContentTypeViewController.m */,
+			);
+			path = ContentTypeViewController;
+			sourceTree = "<group>";
+		};
+		5A442C501F9419B80062B36D /* ContentTypeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5A442C741F94744B0062B36D /* backButton.png */,
+			);
+			path = ContentTypeViewController;
+			sourceTree = "<group>";
+		};
+		5A442C531F941CA30062B36D /* CameraViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5A442C541F941CD90062B36D /* CameraViewController.h */,
+				5A442C551F941CD90062B36D /* CameraViewController.m */,
+			);
+			path = CameraViewController;
+			sourceTree = "<group>";
+		};
+		5A442C571F941E030062B36D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5A442C581F941E190062B36D /* H264HwEncoderImpl.h */,
+				5A442C591F941E190062B36D /* H264HwEncoderImpl.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		5A442C5B1F9429C20062B36D /* CameraViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5A442C701F9474330062B36D /* recordButton.png */,
+				5A442C711F9474340062B36D /* stopButton.png */,
+			);
+			path = CameraViewController;
+			sourceTree = "<group>";
+		};
+		5A442C5E1F942F700062B36D /* VideoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5A442C5F1F942FB70062B36D /* VideoViewController.h */,
+				5A442C601F942FB70062B36D /* VideoViewController.m */,
+			);
+			path = VideoViewController;
+			sourceTree = "<group>";
+		};
+		5A442C671F9448160062B36D /* OverlayViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5A442C641F94480F0062B36D /* OverLayViewController.h */,
+				5A442C651F94480F0062B36D /* OverLayViewController.m */,
+			);
+			path = OverlayViewController;
+			sourceTree = "<group>";
+		};
+		5A442C681F9469BF0062B36D /* FileViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5A442C691F9469D10062B36D /* FileViewController.h */,
+				5A442C6A1F9469D10062B36D /* FileViewController.m */,
+			);
+			path = FileViewController;
+			sourceTree = "<group>";
+		};
 		5B5F0D589E54D166ED4AB5A6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +231,7 @@
 		87517B894FEF2DEF709E4E6A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5A442C6E1F9471BC0062B36D /* WebKit.framework */,
 				6F16F47CF5EAC5ADAF54285D /* Pods_CastEx.framework */,
 			);
 			name = Frameworks;
@@ -139,6 +240,7 @@
 		CC2A1C6D1F8FF10D00BA9A0B = {
 			isa = PBXGroup;
 			children = (
+				5A442C571F941E030062B36D /* Utilities */,
 				CCBDDEDD1F90294400896D3E /* ViewControllers */,
 				CCBDDED31F901F4700896D3E /* UI Resources */,
 				CCBDDED01F90162200896D3E /* Media */,
@@ -223,6 +325,7 @@
 		CCBDDED01F90162200896D3E /* Media */ = {
 			isa = PBXGroup;
 			children = (
+				5A442C6C1F94711C0062B36D /* document.pdf */,
 				CCBDDED11F90163600896D3E /* waves.mp4 */,
 			);
 			path = Media;
@@ -231,6 +334,8 @@
 		CCBDDED31F901F4700896D3E /* UI Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5A442C5B1F9429C20062B36D /* CameraViewController */,
+				5A442C501F9419B80062B36D /* ContentTypeViewController */,
 				CCBDDEB61F9015E100896D3E /* Fonts */,
 				CCBDDED41F901F5100896D3E /* IntroViewController */,
 			);
@@ -240,8 +345,8 @@
 		CCBDDED41F901F5100896D3E /* IntroViewController */ = {
 			isa = PBXGroup;
 			children = (
-				CCBDDEDB1F90229B00896D3E /* recordButton.png */,
-				CCBDDED71F9020EE00896D3E /* playButton.png */,
+				CCBDDEDB1F90229B00896D3E /* recordWhiteButton.png */,
+				5A442C4E1F94187B0062B36D /* playButton.png */,
 			);
 			path = IntroViewController;
 			sourceTree = "<group>";
@@ -249,6 +354,11 @@
 		CCBDDEDD1F90294400896D3E /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				5A442C681F9469BF0062B36D /* FileViewController */,
+				5A442C671F9448160062B36D /* OverlayViewController */,
+				5A442C5E1F942F700062B36D /* VideoViewController */,
+				5A442C531F941CA30062B36D /* CameraViewController */,
+				5A442C4A1F9416960062B36D /* ContentTypeViewController */,
 				CCBDDEDF1F90306D00896D3E /* StreamViewController */,
 				CCBDDEDE1F90295000896D3E /* IntroViewController */,
 			);
@@ -385,20 +495,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCBDDECC1F90160E00896D3E /* Roboto-Medium.ttf in Resources */,
+				5A442C6D1F9471330062B36D /* document.pdf in Resources */,
 				CCBDDEC71F90160E00896D3E /* Roboto-Thin.ttf in Resources */,
+				5A442C751F94744F0062B36D /* backButton.png in Resources */,
 				CCBDDECF1F90160E00896D3E /* Roboto-Regular.ttf in Resources */,
 				CCBDDECE1F90160E00896D3E /* Roboto-Bold.ttf in Resources */,
 				CC2A1C861F8FF10D00BA9A0B /* LaunchScreen.storyboard in Resources */,
 				CCBDDEC51F90160E00896D3E /* Roboto-BlackItalic.ttf in Resources */,
 				CCBDDECD1F90160E00896D3E /* Roboto-MediumItalic.ttf in Resources */,
-				CCBDDED81F9020EF00896D3E /* playButton.png in Resources */,
+				5A442C721F9474370062B36D /* recordButton.png in Resources */,
+				5A442C4F1F9419180062B36D /* playButton.png in Resources */,
+				5A442C731F94743C0062B36D /* stopButton.png in Resources */,
 				CCBDDECA1F90160E00896D3E /* Roboto-Light.ttf in Resources */,
 				CCBDDEC41F90160E00896D3E /* Roboto-LightItalic.ttf in Resources */,
 				CCBDDECB1F90160E00896D3E /* Roboto-BoldItalic.ttf in Resources */,
 				CCBDDEC61F90160E00896D3E /* Roboto-Black.ttf in Resources */,
 				CCBDDEC81F90160E00896D3E /* Roboto-ThinItalic.ttf in Resources */,
 				CCBDDEC91F90160E00896D3E /* Roboto-Italic.ttf in Resources */,
-				CCBDDEDC1F90229B00896D3E /* recordButton.png in Resources */,
+				CCBDDEDC1F90229B00896D3E /* recordWhiteButton.png in Resources */,
 				CC2A1C831F8FF10D00BA9A0B /* Assets.xcassets in Resources */,
 				CCBDDED21F90163600896D3E /* waves.mp4 in Resources */,
 				CC2A1C811F8FF10D00BA9A0B /* Main.storyboard in Resources */,
@@ -482,8 +596,14 @@
 			files = (
 				CC2A1C891F8FF10D00BA9A0B /* main.m in Sources */,
 				CC2A1C7B1F8FF10D00BA9A0B /* AppDelegate.m in Sources */,
+				5A442C611F942FB70062B36D /* VideoViewController.m in Sources */,
+				5A442C661F94480F0062B36D /* OverLayViewController.m in Sources */,
+				5A442C4D1F9416BB0062B36D /* ContentTypeViewController.m in Sources */,
+				5A442C5A1F941F240062B36D /* H264HwEncoderImpl.m in Sources */,
+				5A442C6B1F9469D10062B36D /* FileViewController.m in Sources */,
 				CCBDDEE71F9030D400896D3E /* StreamViewController.m in Sources */,
 				CC2A1CAF1F8FF4FC00BA9A0B /* IntroViewController.m in Sources */,
+				5A442C561F941CD90062B36D /* CameraViewController.m in Sources */,
 				CCBDDEE81F9030D400896D3E /* AAPLEAGLLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
